@@ -1,6 +1,5 @@
 import React from 'react';
 import './app.css';
-import withBookStoreService from '../hoc';
 import {Route, Switch} from 'react-router-dom';
 import {HomePage, CartPage} from '../pages';
 import ShopHeader from '../shop-header';
@@ -14,4 +13,4 @@ const App = () => {
         </Switch>
     </main>
 }
-export default withBookStoreService()(App);
+export default App;
